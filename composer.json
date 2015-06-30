@@ -1,0 +1,20 @@
+{
+  "name": "erikgall/flash",
+  "description": "Laravel 5.1 flash messages based off of Laracasts/Jeffery Ways flash notifcations.",
+  "authors": [
+    {
+      "name": "Erik Galloway",
+      "email": "erik@mybarnapp.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "EGALL\\Flash" : "src/"
+    },
+    "files": [
+      "src/EGALL/Flash/functions.php"
+    ]
+  },
+  "minimum-stability": "stable",
+  "require": {}
+}
